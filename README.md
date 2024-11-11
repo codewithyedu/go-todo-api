@@ -13,10 +13,16 @@ To run this project, you need:
 
 - Go 1.18 or later
 - Google UUID package (to generate unique IDs)
+- Validator
 
 Install the UUID package with:
 ```
 go get github.com/google/uuid
+```
+
+Install the validator package with:
+```
+go get github.com/go-playground/validator/v10
 ```
 
 ## Getting Started

@@ -1,4 +1,4 @@
-module example.com/todo
+module github.com/codewithyedu/go-todo-api
 
 go 1.23.2
 
