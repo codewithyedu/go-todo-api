@@ -9,7 +9,7 @@ import (
 func RespondWithJSON(w http.ResponseWriter, r *http.Request, code int, data interface{}) {
 	log.Printf("::: %v ::: %v %v", code, r.Method, r.URL)
 
-	w.Header().Add("Content-Type", "application/json")
+	w.Header().Set("Content-Type", "application/json")
 
 	d, err := json.Marshal(data)
 	if err != nil {
